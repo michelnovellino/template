@@ -24,6 +24,9 @@ export default {
 				css.write('public/bundle.css');
 			}
 		}),
+		postcss({
+			plugins: []
+		  }),
 
 		// If you have external dependencies installed from
 		// npm, you'll most likely need these plugins. In
